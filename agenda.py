@@ -17,9 +17,9 @@ while (sair==False):
 
   if(op==2):
     os.system('cls')
-    print("------------- AGENDA -------------")
+    print("-------------- AGENDA --------------")
     for cnt in agenda:
-      print("Nome: ",cnt[0],"    Telefone: ",cnt[1])
+      print("Nome:",cnt[0],"  Telefone:",cnt[1])
     sleep(4)
 
   if(op==3):
