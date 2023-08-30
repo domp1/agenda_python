@@ -31,3 +31,13 @@ while (sair==False):
            agenda[i][1]=input("Insira o novo telefone do contato: ")
            os.system('cls')
            break
+  
+  if(op==4):
+     os.system('cls')
+     nome=input("Insira o nome do contato que deseja excluir: ")
+     for i in range(len(agenda)):
+        if(agenda[i][0]==nome):
+          agenda.pop(i)
+          os.system('cls')
+          break
+  
